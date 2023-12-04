@@ -2,7 +2,7 @@
 
 public class WinningCardFinder
 {
-    public int NumberOfMatchingNumbers { get; set;  } = 0;
+    public int NumberOfMatchingNumbers { get; private set;  } = 0;
     private readonly List<int> _winningNumbers;
     private readonly List<int> _scratchedNumbers;
     
